@@ -1,5 +1,95 @@
-@media (max-width:991px) {
+@media (max-width: 991px) {
+    .promo {
+        padding: 21px 10px 93px 10px;
+        &__header {
+            font-size: 39px;
+        }
+        &__subheader {
+            font-size: 23px;
+        }
+
+        &__link {
+            font-size: 14px;
+        }
+    }
+    .button {
+        &_main {
+            width: 270px;
+            height: 46px;
+            font-size: 15px;
+        }
+    }
+    .title {
+        font-size: 28px;
+        &_left {
+            font-size: 27px;
+        }
+    }
+
+    .advantages {
+        padding: 70px 10px 80px 10px;
+        &__wrapper {
+            margin-top: 60px;
+        }
+        &__subtitle {
+            margin-top: 28px;
+            font-size: 17px;
+        }
+        &__descr {
+            margin-top: 16px;
+            font-size: 13px;
+            a {
+                font-size: 13px;
+            }
+        }
+    }
+    .consultation {
+        padding: 100px 100px 92px 105px;
+        &__descr {
+            font-size: 19px;
+        }
+    }
     .carousel {
-        
+        padding: 92px 0;
+    }
+}
+
+@media (max-width: 767px) {
+    .promo {
+        padding: 21px 10px 93px 10px;
+        &__header {
+            font-size: 35px;
+        }
+        span {
+            font-size: 15px;
+        }
+        &__subheader {
+            font-size: 20px;
+        }
+        &__phone {
+            font-style: 17px;
+        }
+    }
+
+    .advantages {
+        &__descr {
+            margin-top: 16px;
+            font-size: 11px;
+            a {
+                font-size: 13px;
+            }
+        }
+    }
+
+    .consultation {
+        padding: 100px 100px 92px 105px;
+    }
+
+    .carousel {
+        .slick-dots {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
     }
 }

@@ -1,0 +1,42 @@
+.reviews {
+    min-height: 920px;
+    background-color: #fff;
+    padding: 0  48px 90px;
+
+    &__img{
+        float: left;
+        margin-right: 61px;
+    
+    }
+
+    &__text {
+        min-height: 250px;
+    }
+
+
+
+
+        &__subtitle {
+        color: #0d0d0d;
+        font-size: 18px;
+        font-weight: 700;
+        }
+        &__count {
+            font-weight: 500;
+            font-size: 14px;
+            color: #646464;
+            
+        }
+        
+        &__descr {
+            font-weight: 300;
+            font-size: 15px;
+            line-height: 20px;
+            color: #0D0D0D;
+        }
+
+}
+
+
+
+

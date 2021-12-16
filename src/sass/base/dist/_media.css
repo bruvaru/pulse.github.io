@@ -1,0 +1,91 @@
+@media (max-width: 991px) {
+  .promo {
+    padding: 21px 10px 93px 10px;
+  }
+  .promo__header {
+    font-size: 39px;
+  }
+  .promo__subheader {
+    font-size: 23px;
+  }
+  .promo__link {
+    font-size: 14px;
+  }
+
+  .button_main {
+    width: 270px;
+    height: 46px;
+    font-size: 15px;
+  }
+
+  .title {
+    font-size: 28px;
+  }
+  .title_left {
+    font-size: 27px;
+  }
+
+  .advantages {
+    padding: 70px 10px 80px 10px;
+  }
+  .advantages__wrapper {
+    margin-top: 60px;
+  }
+  .advantages__subtitle {
+    margin-top: 28px;
+    font-size: 17px;
+  }
+  .advantages__descr {
+    margin-top: 16px;
+    font-size: 13px;
+  }
+  .advantages__descr a {
+    font-size: 13px;
+  }
+
+  .consultation {
+    padding: 100px 100px 92px 105px;
+  }
+  .consultation__descr {
+    font-size: 19px;
+  }
+
+  .carousel {
+    padding: 92px 0;
+  }
+}
+@media (max-width: 767px) {
+  .promo {
+    padding: 21px 10px 93px 10px;
+  }
+  .promo__header {
+    font-size: 35px;
+  }
+  .promo span {
+    font-size: 15px;
+  }
+  .promo__subheader {
+    font-size: 20px;
+  }
+  .promo__phone {
+    font-style: 17px;
+  }
+
+  .advantages__descr {
+    margin-top: 16px;
+    font-size: 11px;
+  }
+  .advantages__descr a {
+    font-size: 13px;
+  }
+
+  .consultation {
+    padding: 100px 100px 92px 105px;
+  }
+
+  .carousel .slick-dots {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
